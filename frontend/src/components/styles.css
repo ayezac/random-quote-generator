@@ -1,0 +1,205 @@
+
+#container {
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 20px; 
+  margin: auto;
+  padding: 60px;
+}
+
+#quote-container {
+  width: 700px;
+  height: 300px;;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 50px;
+}
+#title {
+  font-family: 'Notable', sans-serif;
+}
+#quote-text {
+    width: 65%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#quote-author {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: -30px;
+  font-family: 'Montserrat', sans-serif;
+  color: azure;
+}
+
+  #get-quote-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-box-shadow: 25px 29px 82px -24px rgba(0,0,0,0.62);
+    -moz-box-shadow: 25px 29px 82px -24px rgba(0,0,0,0.62);
+    box-shadow: 25px 29px 82px -24px rgba(0,0,0,0.62);
+ 
+  }
+
+  #get-quote-button:hover {
+    background-color: #dbd9d3;
+  }
+  #add-quote-title {
+    font-family: 'Notable', sans-serif;
+    position: relative;
+    top: 20px;
+    text-align: center;
+  }
+
+  #quote-form{
+    width: 80%;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #08C1B3;
+  }
+
+  #text-area{
+    width: 600px;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  #author-name{
+    width: 600px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  #submit-button {
+    width: 180px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: #dbd9d3;
+  }
+  #submit-button:hover{
+    background-color:#bdbbb5;
+  }
+  #home-link {
+    width: 150px;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+  }
+  #add-quote-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
+    position: relative;
+    bottom: 5%;
+  }
+  #add-quote-link:hover {
+    font-size: 19px;  
+  }
+
+  @media screen and (max-width: 480px){
+    #container {
+      width: 310px;
+      padding: 15px;
+      position: relative;
+      top: 50px;
+    }
+
+    #quote-container {
+      height: 300px;
+      width: 250px;
+    }
+    #title {
+      font-size: 23px;
+    }
+    #get-quote-button {
+      width: 180px;
+      height: 40px;
+      font-size: 12px;
+    }
+    #quote-form{
+      width: 320px;
+      height: 430px;
+    }
+    #quote-text {
+      width: 250px;
+      color: white;
+      font-size: 16px;
+    }
+  
+  #quote-author {
+    font-size: 13px;
+    font-style: italic;
+  }
+  #add-quote-link {
+    font-size: 14px;
+    bottom: 0%;
+  }
+    #text-area{
+      width: 250px;
+      height: 180px;
+      font-size: 13px;
+    }
+    #author-name{
+      width: 240px;
+      font-size: 13px;
+    }
+    #submit-button {
+      width: 150px;
+      height: 35px;
+      font-size: 14px;
+    }
+    #add-quote-title {
+      font-size: 20px;
+    }
+    #home-link{
+      font-size: 16px;
+    }
+
+  }
+  @media screen and (max-width: 768px ) and (min-width: 768px) {
+    #container{
+      padding: 80px;
+    }
+    #quote-container {
+      width: 570px;
+    }
+    #quote-form{
+      width: 550px;
+      height: 750px;
+    }
+    #text-area{
+      width: 470px;
+      height:360px;
+    }
+    #author-name{
+      width: 470px;
+    }
+    #submit-button {
+      font-size: 16px;
+    }
+
+  }
